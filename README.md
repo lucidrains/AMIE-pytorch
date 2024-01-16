@@ -2,8 +2,6 @@
 
 Implementation of the general framework for <a href="https://arxiv.org/abs/2401.05654">AMIE</a>, from the paper "Towards Conversational Diagnostic AI", out of Google Deepmind
 
-<a href="https://discord.gg/MDGV9MGA">Temporary discussion</a>
-
 ## Citations
 
 ```bibtex

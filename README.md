@@ -4,6 +4,10 @@ Implementation of the general framework for <a href="https://www.nature.com/arti
 
 Reach out to me if you are at least a 3rd year medical student, have kept up with the current state of deep learning, and interested in this project.
 
+## Todo
+
+- [ ] allow for a DPO-like formulation. do not think google deepmind has adopted this across the org just yet.
+
 ## Citations
 
 ```bibtex

@@ -16,8 +16,12 @@ setup(
     'differential diagnosis'
   ],
   install_requires=[
+    'accelerate',
+    'beartype',
     'einops>=0.7.0',
-    'torch>=2.0'
+    'einx>=0.1.2',
+    'torch>=2.0',
+    'tqdm'
   ],
   classifiers=[
     'Development Status :: 4 - Beta',

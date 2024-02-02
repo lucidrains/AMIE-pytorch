@@ -1,3 +1,5 @@
+<img src="./amie.png" width="450px"></img>
+
 ## AMIE - Pytorch (wip)
 
 Implementation of the general framework for <a href="https://www.nature.com/articles/d41586-024-00099-4">AMIE</a>, from the paper <a href="https://arxiv.org/abs/2401.05654">Towards Conversational Diagnostic AI</a>, out of Google Deepmind

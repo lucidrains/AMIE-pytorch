@@ -4,6 +4,14 @@ from torch.nn import Module, ModuleList
 
 from einops import rearrange
 
+# functions
+
+def exists(v):
+    return v is not None
+
+def default(v, d):
+    return v if exists(v) else d
+
 # self critic prompt
 # figure A.15 in paper
 
@@ -56,6 +64,48 @@ Rating: ...
 DIALOGUE: <dialogue>
 EVALUATION:
 """
+
+# self play modules
+
+class OuterSelfPlay(Module):
+    def __init__(self):
+        super().__init__()
+        raise NotImplementedError
+
+class InnerSelfPlay(Module):
+    def __init__(self):
+        super().__init__()
+        raise NotImplementedError
+
+class PatientAgent(Module):
+    def __init__(self):
+        super().__init__()
+        raise NotImplementedError
+
+class ClinicalVignetteGenerator(Module):
+    def __init__(self):
+        super().__init__()
+        raise NotImplementedError
+
+class Moderator(Module):
+    def __init__(self):
+        super().__init__()
+        raise NotImplementedError
+
+class DoctorAgent(Module):
+    def __init__(self):
+        super().__init__()
+        raise NotImplementedError
+
+class SimulatedDialogue(Module):
+    def __init__(self):
+        super().__init__()
+        raise NotImplementedError
+
+class Critic(Module):
+    def __init__(self):
+        super().__init__()
+        raise NotImplementedError
 
 # main class
 

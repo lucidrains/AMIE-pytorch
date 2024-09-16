@@ -1,8 +1,12 @@
+from __future__ import annotations
+
 import torch
 from torch import nn, einsum
 from torch.nn import Module, ModuleList
 
 from einops import rearrange
+
+from beartype import beartype
 
 # functions
 
@@ -68,41 +72,49 @@ EVALUATION:
 # self play modules
 
 class OuterSelfPlay(Module):
+    @beartype
     def __init__(self):
         super().__init__()
         raise NotImplementedError
 
 class InnerSelfPlay(Module):
+    @beartype
     def __init__(self):
         super().__init__()
         raise NotImplementedError
 
 class PatientAgent(Module):
+    @beartype
     def __init__(self):
         super().__init__()
         raise NotImplementedError
 
 class ClinicalVignetteGenerator(Module):
+    @beartype
     def __init__(self):
         super().__init__()
         raise NotImplementedError
 
 class Moderator(Module):
+    @beartype
     def __init__(self):
         super().__init__()
         raise NotImplementedError
 
 class DoctorAgent(Module):
+    @beartype
     def __init__(self):
         super().__init__()
         raise NotImplementedError
 
 class SimulatedDialogue(Module):
+    @beartype
     def __init__(self):
         super().__init__()
         raise NotImplementedError
 
 class Critic(Module):
+    @beartype
     def __init__(self):
         super().__init__()
         raise NotImplementedError
@@ -110,6 +122,7 @@ class Critic(Module):
 # main class
 
 class AMIE(Module):
+    @beartype
     def __init__(self):
         super().__init__()
 
